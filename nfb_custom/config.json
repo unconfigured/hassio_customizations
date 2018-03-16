@@ -8,9 +8,10 @@
   "boot": "auto",
   "host_network": "true",
   "privileged": ["SYS_ADMIN", "NET_ADMIN"],
-  "map": ["/lib/modules:ro"],
+  "map": [],
   "devices": [],
   "options": {},
   "schema": {},
+  "scripts": {"start": "modprobe cp210x"},
   "image": "unconfigured/{arch}-addon-nfb_custom"
 }
