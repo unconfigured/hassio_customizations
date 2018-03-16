@@ -1,0 +1,15 @@
+{
+  "name": "hass.io customizations",
+  "version": "1.0",
+  "slug": "nfb_custom",
+  "description": "Do some stuff needed at my installation",
+  "url": "https://github.com/unconfigured/hassio_customizations",
+  "startup": "initialize",
+  "boot": "auto",
+  "host_network": "true",
+  "privileged": ["NET_ADMIN"],
+  "devices": [],
+  "options": {},
+  "schema": {},
+  "image": "homeassistant/{arch}-addon-nfb_custom"
+}
