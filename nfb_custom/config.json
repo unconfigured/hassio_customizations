@@ -7,9 +7,10 @@
   "startup": "initialize",
   "boot": "auto",
   "host_network": "true",
-  "privileged": ["NET_ADMIN"],
+  "privileged": ["ALL"],
+  "map": ["/lib/modules:ro"]
   "devices": [],
   "options": {},
   "schema": {},
-  "image": "homeassistant/{arch}-addon-nfb_custom"
+  "image": "unconfigured/{arch}-addon-nfb_custom"
 }
