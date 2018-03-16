@@ -7,7 +7,7 @@
   "startup": "initialize",
   "boot": "auto",
   "host_network": "true",
-  "privileged": ["ALL"],
+  "privileged": ["SYS_ADMIN", "NET_ADMIN"],
   "map": ["/lib/modules:ro"],
   "devices": [],
   "options": {},
