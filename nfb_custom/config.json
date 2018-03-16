@@ -8,7 +8,7 @@
   "boot": "auto",
   "host_network": "true",
   "privileged": ["ALL"],
-  "map": ["/lib/modules:ro"]
+  "map": ["/lib/modules:ro"],
   "devices": [],
   "options": {},
   "schema": {},
