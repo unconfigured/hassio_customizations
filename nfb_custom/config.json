@@ -1,6 +1,6 @@
 {
   "name": "hass.io customizations",
-  "version": "1.0",
+  "version": "1.1",
   "slug": "nfb_custom",
   "description": "Do some stuff needed at my installation",
   "url": "https://github.com/unconfigured/hassio_customizations/nfb_custom",
