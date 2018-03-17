@@ -10,8 +10,8 @@
   "privileged": ["SYS_ADMIN", "NET_ADMIN", "SYS_RAWIO"],
   "map": [],
   "devices": ["/dev/mmcblk0p3:/dev/mmcblk0p3:rwm"],
-  "options": {"USBID": "10c4 89fb"},
-  "schema": {"USBID": "str"},
+  "options": {"USBID": "10c4 89fb", "CUSTOM": ""},
+  "schema": {"USBID": "str", "CUSTOM", "str"},
   "scripts": {"start": "modprobe cp210x && echo 10c4 89fb > /sys/module/cp210x/drivers/usb-serial\\:cp210x/new_id"},
   "image": "unconfigured/{arch}-addon-nfb_custom"
 }
