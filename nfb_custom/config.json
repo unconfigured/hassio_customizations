@@ -7,7 +7,7 @@
   "startup": "initialize",
   "boot": "auto",
   "host_network": "true",
-  "privileged": ["SYS_ADMIN", "NET_ADMIN"],
+  "privileged": ["SYS_ADMIN", "NET_ADMIN", "SYS_RAWIO"],
   "map": [],
   "devices": ["/dev/mmcblk0p3:/dev/mmcblk0p3:rwm"],
   "options": {"USBID": "10c4 89fb"},
